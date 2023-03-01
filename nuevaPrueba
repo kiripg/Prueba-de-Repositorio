@@ -1,0 +1,23 @@
+package nuevaprueba_Githu;
+
+public class Pruebapruebita {
+
+	public static void main(String[] args) {
+		
+		int a, b;
+		int res;
+		int resta;
+		int div;
+		
+		a = (int) (Math.random()*10+1);
+		b= (int) (Math.random()*10+1);
+		res = a+b;
+		resta = a-b;
+		div = a/b;
+		
+		System.out.println(res);
+		System.out.println(resta);
+		System.out.println(div);
+	}
+
+}
